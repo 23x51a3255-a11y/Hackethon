@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StyleSense - AI Fashion Recommender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>✨ StyleSense - AI Fashion Recommender 👗</header>
+
+<div class="container">
+    <h2>Select Your Preferences</h2>
+
+    <select id="occasion">
+        <option value="">Choose Occasion</option>
+        <option value="casual">Casual</option>
+        <option value="party">Party</option>
+        <option value="office">Office</option>
+        <option value="wedding">Wedding</option>
+    </select>
+
+    <select id="season">
+        <option value="">Choose Season</option>
+        <option value="summer">Summer</option>
+        <option value="winter">Winter</option>
+        <option value="spring">Spring</option>
+        <option value="monsoon">Monsoon</option>
+    </select>
+
+    <br>
+    <button onclick="generateRecommendation()">Generate Style</button>
+
+    <div class="recommendation" id="result"></div>
+</div>
+
+<footer>💖 Powered by Generative AI | StyleSense 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html
